@@ -1,115 +1,293 @@
-2025-09-02T02:18:19.059Z	Initializing build environment...
-2025-09-02T02:18:35.781Z	Success: Finished initializing build environment
-2025-09-02T02:18:36.565Z	Cloning repository...
-2025-09-02T02:18:38.070Z	Restoring from dependencies cache
-2025-09-02T02:18:38.073Z	Restoring from build output cache
-2025-09-02T02:18:39.576Z	Detected the following tools from environment: pnpm@10.6.1, nodejs@22.16.0
-2025-09-02T02:18:41.222Z	Installing project dependencies: pnpm install --frozen-lockfile
-2025-09-02T02:18:41.971Z	Scope: all 7 workspace projects
-2025-09-02T02:18:42.081Z	Lockfile is up to date, resolution step is skipped
-2025-09-02T02:18:42.180Z	Progress: resolved 1, reused 0, downloaded 0, added 0
-2025-09-02T02:18:42.311Z	Packages: +920
-2025-09-02T02:18:42.312Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-2025-09-02T02:18:43.367Z	Progress: resolved 920, reused 0, downloaded 0, added 0
-2025-09-02T02:18:44.364Z	Progress: resolved 920, reused 0, downloaded 8, added 0
-2025-09-02T02:18:45.364Z	Progress: resolved 920, reused 0, downloaded 64, added 54
-2025-09-02T02:18:46.365Z	Progress: resolved 920, reused 0, downloaded 144, added 134
-2025-09-02T02:18:47.365Z	Progress: resolved 920, reused 0, downloaded 178, added 166
-2025-09-02T02:18:48.366Z	Progress: resolved 920, reused 0, downloaded 268, added 264
-2025-09-02T02:18:49.368Z	Progress: resolved 920, reused 0, downloaded 344, added 343
-2025-09-02T02:18:50.370Z	Progress: resolved 920, reused 0, downloaded 354, added 350
-2025-09-02T02:18:51.373Z	Progress: resolved 920, reused 0, downloaded 400, added 399
-2025-09-02T02:18:52.374Z	Progress: resolved 920, reused 0, downloaded 458, added 452
-2025-09-02T02:18:53.373Z	Progress: resolved 920, reused 0, downloaded 590, added 592
-2025-09-02T02:18:54.375Z	Progress: resolved 920, reused 0, downloaded 655, added 657
-2025-09-02T02:18:55.375Z	Progress: resolved 920, reused 0, downloaded 743, added 744
-2025-09-02T02:18:56.377Z	Progress: resolved 920, reused 0, downloaded 753, added 751
-2025-09-02T02:18:57.378Z	Progress: resolved 920, reused 0, downloaded 769, added 762
-2025-09-02T02:18:58.378Z	Progress: resolved 920, reused 0, downloaded 880, added 875
-2025-09-02T02:18:59.770Z	Progress: resolved 920, reused 0, downloaded 881, added 875
-2025-09-02T02:19:00.477Z	Progress: resolved 920, reused 0, downloaded 910, added 920, done
-2025-09-02T02:19:00.857Z	.../node_modules/electron postinstall$ node install.js
-2025-09-02T02:19:17.357Z	.../node_modules/electron postinstall: Done
-2025-09-02T02:19:25.043Z	 WARN  Failed to create bin at /opt/buildhome/repo/node_modules/.bin/prompt-optimizer-mcp. ENOENT: no such file or directory, open '/opt/buildhome/repo/node_modules/@prompt-optimizer/mcp-server/dist/index.js'
-2025-09-02T02:19:25.330Z	
-2025-09-02T02:19:25.332Z	dependencies:
-2025-09-02T02:19:25.332Z	+ @element-plus/icons-vue 2.3.1
-2025-09-02T02:19:25.333Z	+ @floating-ui/core 1.7.2
-2025-09-02T02:19:25.333Z	+ @floating-ui/dom 1.7.2
-2025-09-02T02:19:25.333Z	+ @floating-ui/utils 0.2.10
-2025-09-02T02:19:25.333Z	+ @popperjs/core 2.11.8
-2025-09-02T02:19:25.334Z	+ @vue/reactivity 3.5.17
-2025-09-02T02:19:25.334Z	+ @vue/runtime-core 3.5.17
-2025-09-02T02:19:25.334Z	+ @vue/runtime-dom 3.5.17
-2025-09-02T02:19:25.334Z	+ @vue/shared 3.5.17
-2025-09-02T02:19:25.335Z	+ @vueuse/core 12.8.2
-2025-09-02T02:19:25.335Z	+ @vueuse/shared 12.8.2
-2025-09-02T02:19:25.335Z	+ async-validator 4.2.5
-2025-09-02T02:19:25.335Z	+ dayjs 1.11.13
-2025-09-02T02:19:25.336Z	+ electron-to-chromium 1.5.178
-2025-09-02T02:19:25.336Z	+ lodash-es 4.17.21
-2025-09-02T02:19:25.336Z	+ memoize-one 6.0.0
-2025-09-02T02:19:25.337Z	+ normalize-wheel-es 1.2.0
-2025-09-02T02:19:25.337Z	+ vue-i18n 10.0.7
-2025-09-02T02:19:25.337Z	
-2025-09-02T02:19:25.337Z	devDependencies:
-2025-09-02T02:19:25.337Z	+ @intlify/unplugin-vue-i18n 6.0.8
-2025-09-02T02:19:25.339Z	+ concurrently 8.2.2
-2025-09-02T02:19:25.340Z	+ cross-env 7.0.3
-2025-09-02T02:19:25.340Z	+ electron 37.1.0
-2025-09-02T02:19:25.340Z	+ i18next 24.2.3
-2025-09-02T02:19:25.340Z	+ i18next-browser-languagedetector 8.2.0
-2025-09-02T02:19:25.340Z	+ lodash-unified 1.0.3
-2025-09-02T02:19:25.340Z	+ npm-run-all 4.1.5
-2025-09-02T02:19:25.340Z	+ rimraf 4.4.1
-2025-09-02T02:19:25.340Z	+ typescript 5.8.3
-2025-09-02T02:19:25.340Z	
-2025-09-02T02:19:25.586Z	 WARN  Failed to create bin at /opt/buildhome/repo/node_modules/.bin/prompt-optimizer-mcp. ENOENT: no such file or directory, open '/opt/buildhome/repo/node_modules/@prompt-optimizer/mcp-server/dist/index.js'
-2025-09-02T02:19:25.680Z	Done in 44.3s using pnpm v10.6.1
-2025-09-02T02:19:25.734Z	Executing user deploy command: npx wrangler deploy
-2025-09-02T02:19:32.032Z	npm warn exec The following package was not found and will be installed: wrangler@4.33.1
-2025-09-02T02:19:46.522Z	
-2025-09-02T02:19:46.522Z	 ⛅️ wrangler 4.33.1
-2025-09-02T02:19:46.522Z	───────────────────
-2025-09-02T02:19:46.655Z	▲ [WARNING] Processing wrangler.toml configuration:
-2025-09-02T02:19:46.655Z	
-2025-09-02T02:19:46.656Z	    - Unexpected fields found in build field: "destination"
-2025-09-02T02:19:46.656Z	    - Unexpected fields found in top-level field: "pages","redirects"
-2025-09-02T02:19:46.657Z	
-2025-09-02T02:19:46.657Z	
-2025-09-02T02:19:46.658Z	▲ [WARNING] Multiple environments are defined in the Wrangler configuration file, but no target environment was specified for the deploy command.
-2025-09-02T02:19:46.658Z	
-2025-09-02T02:19:46.659Z	  To avoid unintentional changes to the wrong environment, it is recommended to explicitly specify the target environment using the `-e|--env` flag.
-2025-09-02T02:19:46.659Z	  If your intention is to use the top-level environment of your configuration simply pass an empty string to the flag to target such environment. For example `--env=""`.
-2025-09-02T02:19:46.659Z	
-2025-09-02T02:19:46.659Z	
-2025-09-02T02:19:46.663Z	
-2025-09-02T02:19:46.665Z	✘ [ERROR] Missing entry-point to Worker script or to assets directory
-2025-09-02T02:19:46.666Z	
-2025-09-02T02:19:46.666Z	  
-2025-09-02T02:19:46.666Z	  If there is code to deploy, you can either:
-2025-09-02T02:19:46.666Z	  - Specify an entry-point to your Worker script via the command line (ex: `npx wrangler deploy src/index.ts`)
-2025-09-02T02:19:46.667Z	  - Or add the following to your "wrangler.toml" file:
-2025-09-02T02:19:46.667Z	  
-2025-09-02T02:19:46.667Z	  ```
-2025-09-02T02:19:46.667Z	  main = "src/index.ts"
-2025-09-02T02:19:46.668Z	  
-2025-09-02T02:19:46.668Z	  ```
-2025-09-02T02:19:46.668Z	  
-2025-09-02T02:19:46.668Z	  
-2025-09-02T02:19:46.669Z	  If are uploading a directory of assets, you can either:
-2025-09-02T02:19:46.669Z	  - Specify the path to the directory of assets via the command line: (ex: `npx wrangler deploy --assets=./dist`)
-2025-09-02T02:19:46.669Z	  - Or add the following to your "wrangler.toml" file:
-2025-09-02T02:19:46.669Z	  
-2025-09-02T02:19:46.670Z	  ```
-2025-09-02T02:19:46.670Z	  [assets]
-2025-09-02T02:19:46.670Z	  directory = "./dist"
-2025-09-02T02:19:46.672Z	  
-2025-09-02T02:19:46.673Z	  ```
-2025-09-02T02:19:46.673Z	  
-2025-09-02T02:19:46.673Z	
-2025-09-02T02:19:46.673Z	
-2025-09-02T02:19:46.683Z	
-2025-09-02T02:19:46.683Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
-2025-09-02T02:19:46.708Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2025-09-02_02-19-45_606.log"
-2025-09-02T02:19:46.929Z	Failed: error occurred while running deploy command
+2025-09-02T02:39:16.768Z	Initializing build environment...
+2025-09-02T02:40:32.091Z	Success: Finished initializing build environment
+2025-09-02T02:40:32.867Z	Cloning repository...
+2025-09-02T02:40:34.132Z	Restoring from dependencies cache
+2025-09-02T02:40:34.138Z	Restoring from build output cache
+2025-09-02T02:40:35.752Z	Detected the following tools from environment: pnpm@10.6.1, nodejs@22.16.0
+2025-09-02T02:40:39.003Z	Installing project dependencies: pnpm install --frozen-lockfile
+2025-09-02T02:40:39.676Z	Scope: all 7 workspace projects
+2025-09-02T02:40:39.779Z	Lockfile is up to date, resolution step is skipped
+2025-09-02T02:40:39.911Z	Progress: resolved 1, reused 0, downloaded 0, added 0
+2025-09-02T02:40:40.060Z	Packages: +920
+2025-09-02T02:40:40.060Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-09-02T02:40:40.912Z	Progress: resolved 920, reused 0, downloaded 7, added 0
+2025-09-02T02:40:41.913Z	Progress: resolved 920, reused 0, downloaded 70, added 54
+2025-09-02T02:40:42.914Z	Progress: resolved 920, reused 0, downloaded 164, added 156
+2025-09-02T02:40:43.928Z	Progress: resolved 920, reused 0, downloaded 203, added 196
+2025-09-02T02:40:44.937Z	Progress: resolved 920, reused 0, downloaded 336, added 333
+2025-09-02T02:40:45.938Z	Progress: resolved 920, reused 0, downloaded 360, added 353
+2025-09-02T02:40:46.956Z	Progress: resolved 920, reused 0, downloaded 361, added 353
+2025-09-02T02:40:47.956Z	Progress: resolved 920, reused 0, downloaded 480, added 479
+2025-09-02T02:40:48.956Z	Progress: resolved 920, reused 0, downloaded 617, added 609
+2025-09-02T02:40:49.962Z	Progress: resolved 920, reused 0, downloaded 713, added 720
+2025-09-02T02:40:50.963Z	Progress: resolved 920, reused 0, downloaded 741, added 749
+2025-09-02T02:40:51.964Z	Progress: resolved 920, reused 0, downloaded 794, added 795
+2025-09-02T02:40:52.964Z	Progress: resolved 920, reused 0, downloaded 882, added 879
+2025-09-02T02:40:53.965Z	Progress: resolved 920, reused 0, downloaded 898, added 891
+2025-09-02T02:40:54.311Z	Progress: resolved 920, reused 0, downloaded 910, added 920, done
+2025-09-02T02:40:54.655Z	.../node_modules/electron postinstall$ node install.js
+2025-09-02T02:41:18.293Z	.../node_modules/electron postinstall: Done
+2025-09-02T02:41:20.524Z	 WARN  Failed to create bin at /opt/buildhome/repo/node_modules/.bin/prompt-optimizer-mcp. ENOENT: no such file or directory, open '/opt/buildhome/repo/node_modules/@prompt-optimizer/mcp-server/dist/index.js'
+2025-09-02T02:41:20.653Z	
+2025-09-02T02:41:20.654Z	dependencies:
+2025-09-02T02:41:20.654Z	+ @element-plus/icons-vue 2.3.1
+2025-09-02T02:41:20.655Z	+ @floating-ui/core 1.7.2
+2025-09-02T02:41:20.655Z	+ @floating-ui/dom 1.7.2
+2025-09-02T02:41:20.658Z	+ @floating-ui/utils 0.2.10
+2025-09-02T02:41:20.658Z	+ @popperjs/core 2.11.8
+2025-09-02T02:41:20.658Z	+ @vue/reactivity 3.5.17
+2025-09-02T02:41:20.658Z	+ @vue/runtime-core 3.5.17
+2025-09-02T02:41:20.659Z	+ @vue/runtime-dom 3.5.17
+2025-09-02T02:41:20.659Z	+ @vue/shared 3.5.17
+2025-09-02T02:41:20.662Z	+ @vueuse/core 12.8.2
+2025-09-02T02:41:20.662Z	+ @vueuse/shared 12.8.2
+2025-09-02T02:41:20.662Z	+ async-validator 4.2.5
+2025-09-02T02:41:20.662Z	+ dayjs 1.11.13
+2025-09-02T02:41:20.663Z	+ electron-to-chromium 1.5.178
+2025-09-02T02:41:20.664Z	+ lodash-es 4.17.21
+2025-09-02T02:41:20.665Z	+ memoize-one 6.0.0
+2025-09-02T02:41:20.665Z	+ normalize-wheel-es 1.2.0
+2025-09-02T02:41:20.665Z	+ vue-i18n 10.0.7
+2025-09-02T02:41:20.665Z	
+2025-09-02T02:41:20.666Z	devDependencies:
+2025-09-02T02:41:20.666Z	+ @intlify/unplugin-vue-i18n 6.0.8
+2025-09-02T02:41:20.667Z	+ concurrently 8.2.2
+2025-09-02T02:41:20.671Z	+ cross-env 7.0.3
+2025-09-02T02:41:20.672Z	+ electron 37.1.0
+2025-09-02T02:41:20.672Z	+ i18next 24.2.3
+2025-09-02T02:41:20.672Z	+ i18next-browser-languagedetector 8.2.0
+2025-09-02T02:41:20.672Z	+ lodash-unified 1.0.3
+2025-09-02T02:41:20.672Z	+ npm-run-all 4.1.5
+2025-09-02T02:41:20.673Z	+ rimraf 4.4.1
+2025-09-02T02:41:20.673Z	+ typescript 5.8.3
+2025-09-02T02:41:20.673Z	
+2025-09-02T02:41:20.764Z	 WARN  Failed to create bin at /opt/buildhome/repo/node_modules/.bin/prompt-optimizer-mcp. ENOENT: no such file or directory, open '/opt/buildhome/repo/node_modules/@prompt-optimizer/mcp-server/dist/index.js'
+2025-09-02T02:41:20.820Z	Done in 41.6s using pnpm v10.6.1
+2025-09-02T02:41:20.861Z	Executing user deploy command: npx wrangler deploy
+2025-09-02T02:41:28.074Z	npm warn exec The following package was not found and will be installed: wrangler@4.33.1
+2025-09-02T02:41:38.723Z	
+2025-09-02T02:41:38.723Z	 ⛅️ wrangler 4.33.1
+2025-09-02T02:41:38.724Z	───────────────────
+2025-09-02T02:41:38.812Z	▲ [WARNING] Multiple environments are defined in the Wrangler configuration file, but no target environment was specified for the deploy command.
+2025-09-02T02:41:38.812Z	
+2025-09-02T02:41:38.812Z	  To avoid unintentional changes to the wrong environment, it is recommended to explicitly specify the target environment using the `-e|--env` flag.
+2025-09-02T02:41:38.812Z	  If your intention is to use the top-level environment of your configuration simply pass an empty string to the flag to target such environment. For example `--env=""`.
+2025-09-02T02:41:38.812Z	
+2025-09-02T02:41:38.813Z	
+2025-09-02T02:41:38.815Z	[custom build] Running: pnpm build
+2025-09-02T02:41:39.351Z	[custom build] 
+2025-09-02T02:41:39.351Z	[custom build] > prompt-optimizer@1.4.4 build /opt/buildhome/repo
+2025-09-02T02:41:39.352Z	[custom build] > npm-run-all build:core build:ui build:parallel
+2025-09-02T02:41:39.352Z	[custom build] 
+2025-09-02T02:41:39.352Z	[custom build] 
+2025-09-02T02:41:39.985Z	[custom build] 
+2025-09-02T02:41:39.986Z	[custom build] > prompt-optimizer@1.4.4 build:core /opt/buildhome/repo
+2025-09-02T02:41:39.986Z	[custom build] > pnpm -F @prompt-optimizer/core build
+2025-09-02T02:41:39.987Z	[custom build] 
+2025-09-02T02:41:39.987Z	[custom build] 
+2025-09-02T02:41:40.500Z	[custom build] 
+2025-09-02T02:41:40.500Z	[custom build] > @prompt-optimizer/core@0.0.0 build /opt/buildhome/repo/packages/core
+2025-09-02T02:41:40.501Z	[custom build] > tsup src/index.ts --format cjs,esm --dts
+2025-09-02T02:41:40.501Z	[custom build] 
+2025-09-02T02:41:40.501Z	[custom build] 
+2025-09-02T02:41:40.976Z	[custom build] CLI Building entry: src/index.ts
+2025-09-02T02:41:40.976Z	[custom build] 
+2025-09-02T02:41:40.977Z	[custom build] CLI Using tsconfig: tsconfig.json
+2025-09-02T02:41:40.977Z	[custom build] CLI tsup v8.5.0
+2025-09-02T02:41:40.977Z	[custom build] 
+2025-09-02T02:41:40.984Z	[custom build] CLI Target: es2020
+2025-09-02T02:41:40.987Z	[custom build] 
+2025-09-02T02:41:40.987Z	[custom build] CJS Build start
+2025-09-02T02:41:40.988Z	[custom build] 
+2025-09-02T02:41:40.989Z	[custom build] ESM Build start
+2025-09-02T02:41:40.989Z	[custom build] 
+2025-09-02T02:41:41.206Z	[custom build] ESM dist/index.js 247.66 KB
+2025-09-02T02:41:41.207Z	[custom build] 
+2025-09-02T02:41:41.209Z	[custom build] ESM ⚡️ Build success in 222ms
+2025-09-02T02:41:41.211Z	[custom build] 
+2025-09-02T02:41:41.214Z	[custom build] CJS dist/index.cjs 254.12 KB
+2025-09-02T02:41:41.214Z	[custom build] CJS ⚡️ Build success in 226ms
+2025-09-02T02:41:41.215Z	[custom build] 
+2025-09-02T02:41:41.476Z	[custom build] DTS Build start
+2025-09-02T02:41:41.476Z	[custom build] 
+2025-09-02T02:41:46.542Z	[custom build] DTS ⚡️ Build success in 4490ms
+2025-09-02T02:41:46.544Z	[custom build] DTS dist/index.d.cts 60.47 KB
+2025-09-02T02:41:46.545Z	[custom build] DTS dist/index.d.ts  60.47 KB
+2025-09-02T02:41:46.545Z	[custom build] 
+2025-09-02T02:41:46.545Z	[custom build] > prompt-optimizer@1.4.4 build:ui /opt/buildhome/repo
+2025-09-02T02:41:46.545Z	[custom build] > pnpm -F @prompt-optimizer/ui build
+2025-09-02T02:41:46.545Z	[custom build] 
+2025-09-02T02:41:46.545Z	[custom build] 
+2025-09-02T02:41:46.925Z	[custom build] 
+2025-09-02T02:41:46.926Z	[custom build] > @prompt-optimizer/ui@0.0.1 build /opt/buildhome/repo/packages/ui
+2025-09-02T02:41:46.926Z	[custom build] > vite build
+2025-09-02T02:41:46.926Z	[custom build] 
+2025-09-02T02:41:46.926Z	[custom build] 
+2025-09-02T02:41:47.300Z	[custom build] vite v6.3.5 building for production...
+2025-09-02T02:41:47.300Z	[custom build] 
+2025-09-02T02:41:47.709Z	[custom build] transforming...
+2025-09-02T02:41:47.709Z	[custom build] 
+2025-09-02T02:41:54.135Z	[custom build] ✓ 385 modules transformed.
+2025-09-02T02:41:54.135Z	[custom build] 
+2025-09-02T02:41:54.733Z	[custom build] rendering chunks...
+2025-09-02T02:41:54.735Z	[custom build] 
+2025-09-02T02:41:55.378Z	[custom build] computing gzip size...
+2025-09-02T02:41:55.380Z	[custom build] 
+2025-09-02T02:41:55.522Z	[custom build] dist/style.css    194.83 kB │ gzip:  21.67 kB
+2025-09-02T02:41:55.522Z	[custom build] 
+2025-09-02T02:41:55.522Z	[custom build] dist/index.js   2,114.53 kB │ gzip: 565.43 kB │ map: 3,919.68 kB
+2025-09-02T02:41:55.522Z	[custom build] 
+2025-09-02T02:41:56.710Z	[custom build] dist/style.css    194.83 kB │ gzip:  21.67 kB
+2025-09-02T02:41:56.711Z	[custom build] 
+2025-09-02T02:41:56.711Z	[custom build] dist/index.cjs  1,488.63 kB │ gzip: 484.08 kB │ map: 3,668.23 kB
+2025-09-02T02:41:56.711Z	[custom build] ✓ built in 9.37s
+2025-09-02T02:41:56.711Z	[custom build] 
+2025-09-02T02:41:57.320Z	[custom build] 
+2025-09-02T02:41:57.325Z	[custom build] > prompt-optimizer@1.4.4 build:parallel /opt/buildhome/repo
+2025-09-02T02:41:57.325Z	[custom build] > npm-run-all --parallel build:web build:ext
+2025-09-02T02:41:57.326Z	[custom build] 
+2025-09-02T02:41:57.327Z	[custom build] 
+2025-09-02T02:41:57.885Z	[custom build] 
+2025-09-02T02:41:57.888Z	[custom build] > prompt-optimizer@1.4.4 build:web /opt/buildhome/repo
+2025-09-02T02:41:57.888Z	[custom build] > pnpm -F @prompt-optimizer/web build
+2025-09-02T02:41:57.888Z	[custom build] 
+2025-09-02T02:41:57.888Z	[custom build] 
+2025-09-02T02:41:57.888Z	[custom build] > prompt-optimizer@1.4.4 build:ext /opt/buildhome/repo
+2025-09-02T02:41:57.888Z	[custom build] > pnpm -F @prompt-optimizer/extension build
+2025-09-02T02:41:57.889Z	[custom build] 
+2025-09-02T02:41:57.889Z	[custom build] 
+2025-09-02T02:41:58.344Z	[custom build] 
+2025-09-02T02:41:58.344Z	[custom build] > @prompt-optimizer/web@0.0.0 build /opt/buildhome/repo/packages/web
+2025-09-02T02:41:58.344Z	[custom build] > vite build
+2025-09-02T02:41:58.344Z	[custom build] 
+2025-09-02T02:41:58.344Z	[custom build] 
+2025-09-02T02:41:58.350Z	[custom build] 
+2025-09-02T02:41:58.350Z	[custom build] > @prompt-optimizer/extension@0.0.0 build /opt/buildhome/repo/packages/extension
+2025-09-02T02:41:58.350Z	[custom build] > vite build
+2025-09-02T02:41:58.350Z	[custom build] 
+2025-09-02T02:41:58.351Z	[custom build] 
+2025-09-02T02:41:58.782Z	[custom build] vite v6.3.5 building for production...
+2025-09-02T02:41:58.783Z	[custom build] 
+2025-09-02T02:41:59.037Z	[custom build] vite v6.3.5 building for production...
+2025-09-02T02:41:59.039Z	[custom build] 
+2025-09-02T02:41:59.209Z	[custom build] transforming...
+2025-09-02T02:41:59.209Z	[custom build] 
+2025-09-02T02:41:59.519Z	[custom build] transforming...
+2025-09-02T02:41:59.520Z	[custom build] 
+2025-09-02T02:42:02.313Z	[custom build] [plugin vite:resolve] Module "fs/promises" has been externalized for browser compatibility, imported by "/opt/buildhome/repo/packages/core/dist/index.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+2025-09-02T02:42:02.314Z	[custom build] 
+2025-09-02T02:42:02.315Z	[custom build] [plugin vite:resolve] Module "path" has been externalized for browser compatibility, imported by "/opt/buildhome/repo/packages/core/dist/index.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+2025-09-02T02:42:02.315Z	[custom build] 
+2025-09-02T02:42:03.832Z	[custom build] [plugin vite:resolve] Module "fs/promises" has been externalized for browser compatibility, imported by "/opt/buildhome/repo/packages/core/dist/index.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+2025-09-02T02:42:03.833Z	[custom build] 
+2025-09-02T02:42:03.834Z	[custom build] [plugin vite:resolve] Module "path" has been externalized for browser compatibility, imported by "/opt/buildhome/repo/packages/core/dist/index.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+2025-09-02T02:42:03.834Z	[custom build] 
+2025-09-02T02:42:04.246Z	[custom build] ../core/dist/index.js (5471:25): "join" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:04.249Z	[custom build] 
+2025-09-02T02:42:04.255Z	[custom build] ../core/dist/index.js (5472:27): "join" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:04.255Z	[custom build] 
+2025-09-02T02:42:04.256Z	[custom build] ../core/dist/index.js (5551:15): "access" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:04.256Z	[custom build] 
+2025-09-02T02:42:04.273Z	[custom build] ../core/dist/index.js (5552:31): "readFile" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:04.274Z	[custom build] 
+2025-09-02T02:42:04.279Z	[custom build] ../core/dist/index.js (5582:15): "access" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:04.280Z	[custom build] ../core/dist/index.js (5594:17): "copyFile" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:04.280Z	[custom build] 
+2025-09-02T02:42:04.287Z	[custom build] ../core/dist/index.js (5637:15): "mkdir" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:04.288Z	[custom build] 
+2025-09-02T02:42:04.296Z	[custom build] ../core/dist/index.js (5637:26): "dirname" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:04.296Z	[custom build] 
+2025-09-02T02:42:04.301Z	[custom build] ../core/dist/index.js (5638:15): "writeFile" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:04.309Z	[custom build] 
+2025-09-02T02:42:04.310Z	[custom build] ../core/dist/index.js (5642:15): "rename" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:04.310Z	[custom build] 
+2025-09-02T02:42:04.311Z	[custom build] ../core/dist/index.js (5645:17): "unlink" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:04.311Z	[custom build] 
+2025-09-02T02:42:05.642Z	[custom build] ../core/dist/index.js (5471:25): "join" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:05.643Z	[custom build] 
+2025-09-02T02:42:05.650Z	[custom build] ../core/dist/index.js (5472:27): "join" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:05.651Z	[custom build] 
+2025-09-02T02:42:05.653Z	[custom build] ../core/dist/index.js (5551:15): "access" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:05.654Z	[custom build] 
+2025-09-02T02:42:05.684Z	[custom build] ../core/dist/index.js (5552:31): "readFile" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:05.685Z	[custom build] 
+2025-09-02T02:42:05.688Z	[custom build] ../core/dist/index.js (5582:15): "access" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:05.689Z	[custom build] 
+2025-09-02T02:42:05.689Z	[custom build] ../core/dist/index.js (5594:17): "copyFile" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:05.689Z	[custom build] 
+2025-09-02T02:42:05.700Z	[custom build] ../core/dist/index.js (5637:15): "mkdir" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:05.700Z	[custom build] 
+2025-09-02T02:42:05.707Z	[custom build] ../core/dist/index.js (5637:26): "dirname" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:05.707Z	[custom build] 
+2025-09-02T02:42:05.708Z	[custom build] ../core/dist/index.js (5638:15): "writeFile" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:05.708Z	[custom build] 
+2025-09-02T02:42:05.712Z	[custom build] ../core/dist/index.js (5642:15): "rename" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:05.713Z	[custom build] 
+2025-09-02T02:42:05.715Z	[custom build] ../core/dist/index.js (5645:17): "unlink" is not exported by "__vite-browser-external", imported by "../core/dist/index.js".
+2025-09-02T02:42:05.719Z	[custom build] 
+2025-09-02T02:42:09.039Z	[custom build] ✓ 281 modules transformed.
+2025-09-02T02:42:09.040Z	[custom build] 
+2025-09-02T02:42:09.556Z	[custom build] ✓ 261 modules transformed.
+2025-09-02T02:42:09.556Z	[custom build] 
+2025-09-02T02:42:10.539Z	[custom build] rendering chunks...
+2025-09-02T02:42:10.539Z	[custom build] 
+2025-09-02T02:42:10.583Z	[custom build] computing gzip size...
+2025-09-02T02:42:10.584Z	[custom build] 
+2025-09-02T02:42:10.662Z	[custom build] dist/index.html                    0.62 kB │ gzip:   0.42 kB
+2025-09-02T02:42:10.662Z	[custom build] dist/assets/main-LLzzMuoH.css    514.00 kB │ gzip:  66.52 kB
+2025-09-02T02:42:10.663Z	[custom build] dist/assets/main-Dj_M0jQg.js   2,086.46 kB │ gzip: 672.16 kB
+2025-09-02T02:42:10.663Z	[custom build] ✓ built in 11.84s
+2025-09-02T02:42:10.663Z	[custom build] 
+2025-09-02T02:42:10.665Z	[custom build] 
+2025-09-02T02:42:10.665Z	[custom build] (!) Some chunks are larger than 500 kB after minification. Consider:
+2025-09-02T02:42:10.665Z	[custom build] - Using dynamic import() to code-split the application
+2025-09-02T02:42:10.665Z	[custom build] - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+2025-09-02T02:42:10.665Z	[custom build] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+2025-09-02T02:42:10.665Z	[custom build] 
+2025-09-02T02:42:10.916Z	[custom build] rendering chunks...
+2025-09-02T02:42:10.916Z	[custom build] 
+2025-09-02T02:42:10.937Z	[custom build] computing gzip size...
+2025-09-02T02:42:10.937Z	[custom build] 
+2025-09-02T02:42:11.005Z	[custom build] dist/index.html            0.39 kB │ gzip:   0.26 kB
+2025-09-02T02:42:11.005Z	[custom build] dist/assets/popup.css    550.36 kB │ gzip:  71.42 kB
+2025-09-02T02:42:11.011Z	[custom build] dist/assets/popup.js   2,050.23 kB │ gzip: 664.28 kB
+2025-09-02T02:42:11.011Z	[custom build] 
+2025-09-02T02:42:11.012Z	[custom build] 
+2025-09-02T02:42:11.012Z	[custom build] (!) Some chunks are larger than 500 kB after minification. Consider:
+2025-09-02T02:42:11.012Z	[custom build] - Using dynamic import() to code-split the application
+2025-09-02T02:42:11.012Z	[custom build] - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+2025-09-02T02:42:11.012Z	[custom build] - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+2025-09-02T02:42:11.013Z	[custom build] 
+2025-09-02T02:42:11.013Z	[custom build] ✓ built in 11.95s
+2025-09-02T02:42:11.013Z	[custom build] 
+2025-09-02T02:42:11.158Z	▲ [WARNING] Failed to match Worker name. Your config file is using the Worker name "prompt-optimizer", but the CI system expected "prompt-opt-01". Overriding using the CI provided Worker name. Workers Builds connected builds will attempt to open a pull request to resolve this config name mismatch.
+2025-09-02T02:42:11.159Z	
+2025-09-02T02:42:11.159Z	
+2025-09-02T02:42:13.052Z	🌀 Building list of assets...
+2025-09-02T02:42:13.052Z	✨ Read 7 files from the assets directory /opt/buildhome/repo/packages/web/dist
+2025-09-02T02:42:13.089Z	🌀 Starting asset upload...
+2025-09-02T02:42:16.265Z	🌀 Found 5 new or modified static assets to upload. Proceeding with upload...
+2025-09-02T02:42:16.265Z	+ /config.js
+2025-09-02T02:42:16.265Z	+ /assets/main-LLzzMuoH.css
+2025-09-02T02:42:16.265Z	+ /index.html
+2025-09-02T02:42:16.265Z	+ /assets/main-Dj_M0jQg.js
+2025-09-02T02:42:16.265Z	+ /favicon.ico
+2025-09-02T02:42:17.797Z	Uploaded 1 of 5 assets
+2025-09-02T02:42:19.864Z	Uploaded 3 of 5 assets
+2025-09-02T02:42:25.743Z	Uploaded 5 of 5 assets
+2025-09-02T02:42:25.743Z	✨ Success! Uploaded 5 files (9.47 sec)
+2025-09-02T02:42:25.743Z	
+2025-09-02T02:42:25.743Z	Total Upload: 0.33 KiB / gzip: 0.24 KiB
+2025-09-02T02:42:26.396Z	
+2025-09-02T02:42:26.397Z	✘ [ERROR] A request to the Cloudflare API (/accounts/75a245593f0da452be61cf0a74772883/workers/scripts/prompt-opt-01/versions) failed.
+2025-09-02T02:42:26.398Z	
+2025-09-02T02:42:26.398Z	  Invalid _redirects configuration:
+2025-09-02T02:42:26.398Z	  Line 5: Infinite loop detected in this rule. This would cause a redirect to strip `.html` or `/index` and end up triggering this rule again. [code: 10021]
+2025-09-02T02:42:26.398Z	
+2025-09-02T02:42:26.398Z	  
+2025-09-02T02:42:26.398Z	  If you think this is a bug, please open an issue at: https://github.com/cloudflare/workers-sdk/issues/new/choose
+2025-09-02T02:42:26.398Z	
+2025-09-02T02:42:26.398Z	
+2025-09-02T02:42:26.398Z	
+2025-09-02T02:42:26.398Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+2025-09-02T02:42:26.519Z	Failed: error occurred while running deploy command

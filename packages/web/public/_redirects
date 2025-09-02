@@ -1,5 +1,5 @@
-# API路由重定向
-/api/* /api/:splat 200
+# API路由重定向到Cloudflare Functions
+/api/* /functions/api/:splat 200
 
-# SPA路由重定向 - 所有其他路由都重定向到index.html
-/* /index.html 200
+# SPA路由重定向 - 所有非文件路径重定向到index.html
+/* /index.html 200!
