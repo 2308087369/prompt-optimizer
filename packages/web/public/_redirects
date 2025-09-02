@@ -1,0 +1,5 @@
+# API路由重定向
+/api/* /api/:splat 200
+
+# SPA路由重定向 - 所有其他路由都重定向到index.html
+/* /index.html 200
