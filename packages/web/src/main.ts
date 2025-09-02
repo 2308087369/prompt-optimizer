@@ -9,21 +9,5 @@ const app = createApp(App)
 installI18nOnly(app)
 app.mount('#app')
 
-// 只在Cloudflare环境中加载Analytics
-// 当环境变量VITE_CLOUDFLARE_DEPLOYMENT为true时才尝试加载
-if (import.meta.env.VITE_CLOUDFLARE_DEPLOYMENT === 'true') {
-  // 使用完全运行时方式加载Vercel Analytics
-  const loadAnalytics = () => {
-    const script = document.createElement('script')
-    script.src = '/_vercel/insights/script.js'
-    script.defer = true
-    script.onload = () => console.log('Cloudflare Analytics 已加载')
-    script.onerror = () => console.log('Cloudflare Analytics 加载失败')
-    document.head.appendChild(script)
-  }
-  
-  // 延迟执行以确保DOM已完全加载
-  window.addEventListener('DOMContentLoaded', loadAnalytics)
-}else{
-    console.log('Cloudflare Analytics 未加载')
-}
+// 纯前端应用，无需额外的分析脚本
+console.log('Prompt Optimizer 前端应用已启动')
