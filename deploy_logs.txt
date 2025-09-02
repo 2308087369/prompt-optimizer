@@ -1,0 +1,115 @@
+2025-09-02T02:18:19.059Z	Initializing build environment...
+2025-09-02T02:18:35.781Z	Success: Finished initializing build environment
+2025-09-02T02:18:36.565Z	Cloning repository...
+2025-09-02T02:18:38.070Z	Restoring from dependencies cache
+2025-09-02T02:18:38.073Z	Restoring from build output cache
+2025-09-02T02:18:39.576Z	Detected the following tools from environment: pnpm@10.6.1, nodejs@22.16.0
+2025-09-02T02:18:41.222Z	Installing project dependencies: pnpm install --frozen-lockfile
+2025-09-02T02:18:41.971Z	Scope: all 7 workspace projects
+2025-09-02T02:18:42.081Z	Lockfile is up to date, resolution step is skipped
+2025-09-02T02:18:42.180Z	Progress: resolved 1, reused 0, downloaded 0, added 0
+2025-09-02T02:18:42.311Z	Packages: +920
+2025-09-02T02:18:42.312Z	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2025-09-02T02:18:43.367Z	Progress: resolved 920, reused 0, downloaded 0, added 0
+2025-09-02T02:18:44.364Z	Progress: resolved 920, reused 0, downloaded 8, added 0
+2025-09-02T02:18:45.364Z	Progress: resolved 920, reused 0, downloaded 64, added 54
+2025-09-02T02:18:46.365Z	Progress: resolved 920, reused 0, downloaded 144, added 134
+2025-09-02T02:18:47.365Z	Progress: resolved 920, reused 0, downloaded 178, added 166
+2025-09-02T02:18:48.366Z	Progress: resolved 920, reused 0, downloaded 268, added 264
+2025-09-02T02:18:49.368Z	Progress: resolved 920, reused 0, downloaded 344, added 343
+2025-09-02T02:18:50.370Z	Progress: resolved 920, reused 0, downloaded 354, added 350
+2025-09-02T02:18:51.373Z	Progress: resolved 920, reused 0, downloaded 400, added 399
+2025-09-02T02:18:52.374Z	Progress: resolved 920, reused 0, downloaded 458, added 452
+2025-09-02T02:18:53.373Z	Progress: resolved 920, reused 0, downloaded 590, added 592
+2025-09-02T02:18:54.375Z	Progress: resolved 920, reused 0, downloaded 655, added 657
+2025-09-02T02:18:55.375Z	Progress: resolved 920, reused 0, downloaded 743, added 744
+2025-09-02T02:18:56.377Z	Progress: resolved 920, reused 0, downloaded 753, added 751
+2025-09-02T02:18:57.378Z	Progress: resolved 920, reused 0, downloaded 769, added 762
+2025-09-02T02:18:58.378Z	Progress: resolved 920, reused 0, downloaded 880, added 875
+2025-09-02T02:18:59.770Z	Progress: resolved 920, reused 0, downloaded 881, added 875
+2025-09-02T02:19:00.477Z	Progress: resolved 920, reused 0, downloaded 910, added 920, done
+2025-09-02T02:19:00.857Z	.../node_modules/electron postinstall$ node install.js
+2025-09-02T02:19:17.357Z	.../node_modules/electron postinstall: Done
+2025-09-02T02:19:25.043Z	 WARN  Failed to create bin at /opt/buildhome/repo/node_modules/.bin/prompt-optimizer-mcp. ENOENT: no such file or directory, open '/opt/buildhome/repo/node_modules/@prompt-optimizer/mcp-server/dist/index.js'
+2025-09-02T02:19:25.330Z	
+2025-09-02T02:19:25.332Z	dependencies:
+2025-09-02T02:19:25.332Z	+ @element-plus/icons-vue 2.3.1
+2025-09-02T02:19:25.333Z	+ @floating-ui/core 1.7.2
+2025-09-02T02:19:25.333Z	+ @floating-ui/dom 1.7.2
+2025-09-02T02:19:25.333Z	+ @floating-ui/utils 0.2.10
+2025-09-02T02:19:25.333Z	+ @popperjs/core 2.11.8
+2025-09-02T02:19:25.334Z	+ @vue/reactivity 3.5.17
+2025-09-02T02:19:25.334Z	+ @vue/runtime-core 3.5.17
+2025-09-02T02:19:25.334Z	+ @vue/runtime-dom 3.5.17
+2025-09-02T02:19:25.334Z	+ @vue/shared 3.5.17
+2025-09-02T02:19:25.335Z	+ @vueuse/core 12.8.2
+2025-09-02T02:19:25.335Z	+ @vueuse/shared 12.8.2
+2025-09-02T02:19:25.335Z	+ async-validator 4.2.5
+2025-09-02T02:19:25.335Z	+ dayjs 1.11.13
+2025-09-02T02:19:25.336Z	+ electron-to-chromium 1.5.178
+2025-09-02T02:19:25.336Z	+ lodash-es 4.17.21
+2025-09-02T02:19:25.336Z	+ memoize-one 6.0.0
+2025-09-02T02:19:25.337Z	+ normalize-wheel-es 1.2.0
+2025-09-02T02:19:25.337Z	+ vue-i18n 10.0.7
+2025-09-02T02:19:25.337Z	
+2025-09-02T02:19:25.337Z	devDependencies:
+2025-09-02T02:19:25.337Z	+ @intlify/unplugin-vue-i18n 6.0.8
+2025-09-02T02:19:25.339Z	+ concurrently 8.2.2
+2025-09-02T02:19:25.340Z	+ cross-env 7.0.3
+2025-09-02T02:19:25.340Z	+ electron 37.1.0
+2025-09-02T02:19:25.340Z	+ i18next 24.2.3
+2025-09-02T02:19:25.340Z	+ i18next-browser-languagedetector 8.2.0
+2025-09-02T02:19:25.340Z	+ lodash-unified 1.0.3
+2025-09-02T02:19:25.340Z	+ npm-run-all 4.1.5
+2025-09-02T02:19:25.340Z	+ rimraf 4.4.1
+2025-09-02T02:19:25.340Z	+ typescript 5.8.3
+2025-09-02T02:19:25.340Z	
+2025-09-02T02:19:25.586Z	 WARN  Failed to create bin at /opt/buildhome/repo/node_modules/.bin/prompt-optimizer-mcp. ENOENT: no such file or directory, open '/opt/buildhome/repo/node_modules/@prompt-optimizer/mcp-server/dist/index.js'
+2025-09-02T02:19:25.680Z	Done in 44.3s using pnpm v10.6.1
+2025-09-02T02:19:25.734Z	Executing user deploy command: npx wrangler deploy
+2025-09-02T02:19:32.032Z	npm warn exec The following package was not found and will be installed: wrangler@4.33.1
+2025-09-02T02:19:46.522Z	
+2025-09-02T02:19:46.522Z	 ⛅️ wrangler 4.33.1
+2025-09-02T02:19:46.522Z	───────────────────
+2025-09-02T02:19:46.655Z	▲ [WARNING] Processing wrangler.toml configuration:
+2025-09-02T02:19:46.655Z	
+2025-09-02T02:19:46.656Z	    - Unexpected fields found in build field: "destination"
+2025-09-02T02:19:46.656Z	    - Unexpected fields found in top-level field: "pages","redirects"
+2025-09-02T02:19:46.657Z	
+2025-09-02T02:19:46.657Z	
+2025-09-02T02:19:46.658Z	▲ [WARNING] Multiple environments are defined in the Wrangler configuration file, but no target environment was specified for the deploy command.
+2025-09-02T02:19:46.658Z	
+2025-09-02T02:19:46.659Z	  To avoid unintentional changes to the wrong environment, it is recommended to explicitly specify the target environment using the `-e|--env` flag.
+2025-09-02T02:19:46.659Z	  If your intention is to use the top-level environment of your configuration simply pass an empty string to the flag to target such environment. For example `--env=""`.
+2025-09-02T02:19:46.659Z	
+2025-09-02T02:19:46.659Z	
+2025-09-02T02:19:46.663Z	
+2025-09-02T02:19:46.665Z	✘ [ERROR] Missing entry-point to Worker script or to assets directory
+2025-09-02T02:19:46.666Z	
+2025-09-02T02:19:46.666Z	  
+2025-09-02T02:19:46.666Z	  If there is code to deploy, you can either:
+2025-09-02T02:19:46.666Z	  - Specify an entry-point to your Worker script via the command line (ex: `npx wrangler deploy src/index.ts`)
+2025-09-02T02:19:46.667Z	  - Or add the following to your "wrangler.toml" file:
+2025-09-02T02:19:46.667Z	  
+2025-09-02T02:19:46.667Z	  ```
+2025-09-02T02:19:46.667Z	  main = "src/index.ts"
+2025-09-02T02:19:46.668Z	  
+2025-09-02T02:19:46.668Z	  ```
+2025-09-02T02:19:46.668Z	  
+2025-09-02T02:19:46.668Z	  
+2025-09-02T02:19:46.669Z	  If are uploading a directory of assets, you can either:
+2025-09-02T02:19:46.669Z	  - Specify the path to the directory of assets via the command line: (ex: `npx wrangler deploy --assets=./dist`)
+2025-09-02T02:19:46.669Z	  - Or add the following to your "wrangler.toml" file:
+2025-09-02T02:19:46.669Z	  
+2025-09-02T02:19:46.670Z	  ```
+2025-09-02T02:19:46.670Z	  [assets]
+2025-09-02T02:19:46.670Z	  directory = "./dist"
+2025-09-02T02:19:46.672Z	  
+2025-09-02T02:19:46.673Z	  ```
+2025-09-02T02:19:46.673Z	  
+2025-09-02T02:19:46.673Z	
+2025-09-02T02:19:46.673Z	
+2025-09-02T02:19:46.683Z	
+2025-09-02T02:19:46.683Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+2025-09-02T02:19:46.708Z	🪵  Logs were written to "/opt/buildhome/.config/.wrangler/logs/wrangler-2025-09-02_02-19-45_606.log"
+2025-09-02T02:19:46.929Z	Failed: error occurred while running deploy command
