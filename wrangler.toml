@@ -1,7 +1,0 @@
-name = "prompt-optimizer"
-compatibility_date = "2024-01-01"
-pages_build_output_dir = "packages/web/dist"
-
-# 环境变量
-[vars]
-VITE_CLOUDFLARE_DEPLOYMENT = "true"
